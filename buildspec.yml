@@ -7,4 +7,4 @@ phases:
       #- aws cloudfront create-invalidation --distribution-id E1YMLQYN76M5KR --paths "/*"
       #aws s3 cp OpenCaseFunction.zip s3://testhskojima
       
-      aws lambda update-function-code --function-name OpenCaseFunction
+      aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://OpenCaseFunction.zip
