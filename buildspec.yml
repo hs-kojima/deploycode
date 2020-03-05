@@ -9,3 +9,4 @@ phases:
       #
       #aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://OpenCaseFunction.zip
       aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://contents/OpenCaseFunction2.zip
+      
