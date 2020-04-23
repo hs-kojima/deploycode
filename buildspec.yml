@@ -8,5 +8,5 @@ phases:
       #aws s3 cp OpenCaseFunction.zip s3://testhskojima
       #
       #aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://OpenCaseFunction.zip
-      #aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://contents/OpenCaseFunction2.zip
-      aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://source/index.js
+      aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://contents/OpenCaseFunction2.zip
+      #aws lambda update-function-code --function-name OpenCaseFunction --zip-file fileb://source/index.js
